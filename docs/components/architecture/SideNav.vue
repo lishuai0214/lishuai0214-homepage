@@ -58,7 +58,7 @@
     components: {Logo},
     props: ['isAsideShow'],
     data () {
-      const components = routes.filter(v => v.meta && v.meta.type === 'component')
+      const components = routes.filter(v => v.meta && v.meta.type === 'stock')
       const groups = uniq(components.map(v => v.meta.group))
         .map(v => {
           return {
@@ -69,8 +69,8 @@
         })
       return {
         asideItems: [
-          {label: 'Usage', items: routes.filter(v => v.meta && v.meta.type === 'usage')},
-          {label: 'Components', items: groups}
+          {label: '介绍', items: routes.filter(v => v.meta && v.meta.type === 'summary')},
+          {label: '股票', items: groups}
         ]
       }
     },

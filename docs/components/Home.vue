@@ -28,7 +28,7 @@
       <h3><b>Bootstrap 3</b> Components implemented by <b>Vue 2</b>.</h3>
       <br/>
       <div>
-        <btn to="/dist-docs/getting-started" size="lg">Getting Started</btn>
+        <btn to="/getting-started" size="lg">Getting Started</btn>
         <btn href="https://github.com/wxsms/uiv" size="lg">Github</btn>
       </div>
     </div>
